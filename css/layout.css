@@ -1,0 +1,89 @@
+
+html{
+	background-color: rgb(173, 189, 227);
+}
+body{
+	max-width: 1020px;
+	min-width: 640px;
+	margin: 0 auto;
+	width: 100%;
+
+	background-color: rgb(227, 210, 173);
+	font-family: 'Century Gothic', sans-serif;
+}
+body header{
+	display: block;
+}
+body header img{
+	display: block;
+	width: 100%;
+}
+body nav{
+	display: block;
+	float: left;
+	width: 20%;
+}
+nav li{
+	display: block;
+	list-style: none;
+	line-height: 2em;
+}
+nav li a{
+	text-decoration: none;
+	color: black;
+}
+nav a:hover{
+	color: red;
+}
+article{
+	display: block;
+	width: 53%;
+	float: left;
+
+	font-size: 19px;
+
+}
+article h1{
+	font-weight: normal;
+	font-size: 2em;
+	letter-spacing: 0.3em;
+}
+article blockquote{
+	display: block;
+	width: 40%;
+	float: right;
+	padding: 10px;
+	border-radius: 5px;
+
+	background-color: skyblue;
+	color: white;
+}
+aside{
+	display: block;
+	float: left;
+	width: 23%;
+	padding-left: 10px;
+}
+aside h1{
+	font-size: 1.4em;
+	font-weight: normal;
+}
+aside h2{
+	font-size: 14px;
+	font-weight: normal;
+}
+aside p{
+	font-size: 14px;
+}
+
+aside p:nth-of-type(even), h2:nth-of-type(even){
+	color: rgb(173, 189, 227);
+}
+footer{
+	clear: both;
+	display: block;
+	text-align: center;
+	padding: 10px 0;
+
+	background-color: rgb(200, 184, 109);
+}
